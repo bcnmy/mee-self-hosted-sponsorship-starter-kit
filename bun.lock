@@ -4,7 +4,7 @@
     "": {
       "name": "self-hosted-sponsorship",
       "dependencies": {
-        "@biconomy/abstractjs": "^1.0.17",
+        "@biconomy/abstractjs": "^1.0.18",
         "express": "^5.1.0",
         "viem": "^2.31.3",
       },
@@ -20,7 +20,7 @@
   "packages": {
     "@adraffy/ens-normalize": ["@adraffy/ens-normalize@1.11.0", "", {}, "sha512-/3DDPKHqqIqxUULp8yP4zODUY1i+2xvVWsv8A79xGWdCAG+8sb0hRh0Rk2QyOJUnnbyPUAZYcpBuRe3nS2OIUg=="],
 
-    "@biconomy/abstractjs": ["@biconomy/abstractjs@1.0.17", "", { "peerDependencies": { "@rhinestone/module-sdk": "0.2.7", "typescript": "^5.8.2", "viem": "^2.26.2" } }, "sha512-96wq8YIfcM63BTDqryiMqUkwreqYLWiSvVBOadbdutK+2z+ODyleYpwPYmXmCYA2oUOyVgWRiWy2tXjXDee75w=="],
+    "@biconomy/abstractjs": ["@biconomy/abstractjs@1.0.18", "", { "peerDependencies": { "@rhinestone/module-sdk": "0.2.7", "typescript": "^5.8.2", "viem": "^2.26.2" } }, "sha512-dKB5hDjhWX7+eY4UC5RH18A1d6K6o5bf34xQRAmh6BjhNmxjq3kqk31ORcGrLgY196pTa5TX7GV/flRHFNQsDg=="],
 
     "@noble/ciphers": ["@noble/ciphers@1.3.0", "", {}, "sha512-2I0gnIVPtfnMw9ee9h1dJG7tp81+8Ob3OJb3Mv37rx5L40/b0i7djjCVvGOVqc9AEIQyvyu1i6ypKdFw8R8gQw=="],
 

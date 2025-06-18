@@ -11,7 +11,7 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@biconomy/abstractjs": "^1.0.17",
+    "@biconomy/abstractjs": "^1.0.18",
     "express": "^5.1.0",
     "viem": "^2.31.3"
   }

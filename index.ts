@@ -4,8 +4,8 @@ import {
   getMeeScanLink,
   testnetMcUSDC,
   toGasTankAccount,
-  GasTankAccount,
-  GetQuotePayload,
+  type GasTankAccount,
+  type GetQuotePayload,
 } from "@biconomy/abstractjs";
 import {
   erc20Abi,
