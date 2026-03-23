@@ -2,6 +2,8 @@ import express, { type Request, type Response } from "express";
 import { Router } from "express";
 import {
   getMeeScanLink,
+  getMEEVersion,
+  MEEVersion,
   testnetMcUSDC,
   toGasTankAccount,
   type GasTankAccount,
@@ -92,8 +94,12 @@ const initializeSponsorship = async (
 
     // Create a gas tank account abstraction
     const gasTankAccount = await toGasTankAccount({
-      transport: http(rpcUrl),
-      chain,
+      chainConfiguration: {
+        transport: http(rpcUrl),
+        chain,
+        // This should be always 2.0.0 mee version
+        version: getMEEVersion(MEEVersion.V2_0_0)
+      },
       privateKey,
       options,
     });
